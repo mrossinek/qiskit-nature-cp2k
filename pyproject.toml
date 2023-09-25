@@ -1,0 +1,26 @@
+[project]
+name = "qiskit_nature_cp2k"
+version = "0.0.1"
+license = { text="Apache-2.0" }
+authors = [
+  { name="Max Rossmannek", email="oss@zurich.ibm.com" },
+  { name="Stefano Battaglia", email="stefano.battaglia@chem.uzh.ch" },
+]
+description = "An integration plugin for Qiskit Nature and CP2K"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "qiskit-nature~=0.7.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["qiskit_nature_cp2k"]
