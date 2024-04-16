@@ -1,7 +1,7 @@
 [project]
 name = "qiskit_nature_cp2k"
 version = "0.0.1"
-license = { text="Apache-2.0" }
+license = { file = "LICENSE.txt" }
 authors = [
   { name="Max Rossmannek", email="oss@zurich.ibm.com" },
   { name="Stefano Battaglia", email="stefano.battaglia@chem.uzh.ch" },
