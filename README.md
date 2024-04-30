@@ -14,7 +14,11 @@ pip install .
 
 When using this software, please cite the corresponding paper:
 
-- [ ] TODO: add the CP2K-based publication
+```
+S. Battaglia, M. Rossmannek, V. V. Rykbin, I. Tavernelli, and J. Hutter;
+A general framework for active space embedding methods: applications in quantum computing;
+arXiv:2404.18737 (2024).
+```
 
 You should also cite [Qiskit](https://github.com/Qiskit/qiskit),
 [Qiskit Nature](https://github.com/Qiskit/qiskit-nature) and
