@@ -9,7 +9,10 @@ You can simply install the contents of this repository after cloning it:
 ```
 pip install .
 ```
-
+You can also install it without clonning via:
+```
+pip install git+https://github.com/mrossinek/qiskit-nature-cp2k.git
+```
 ## Citing
 
 When using this software, please cite the corresponding paper:
